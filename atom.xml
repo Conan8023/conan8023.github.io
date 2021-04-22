@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-03T09:41:51.541Z</updated>
+  <updated>2021-04-22T15:52:54.085Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>耳机</title>
+    <link href="http://example.com/2021/04/22/%E8%80%B3%E6%9C%BA/"/>
+    <id>http://example.com/2021/04/22/%E8%80%B3%E6%9C%BA/</id>
+    <published>2021-04-22T15:51:59.000Z</published>
+    <updated>2021-04-22T15:52:54.085Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;现在市面上大多数耳机都是入耳式。而半入耳式的耳机，真的越来越少。&lt;/p&gt;
+&lt;p&gt;入耳式耳机确实比半入耳式耳机表现更好，更好的封闭性，减少漏音，减低外界噪音对音乐的干扰。加大低频的质感和量感，增加对音乐细节的表现。可以用更低的音量欣赏音乐，更好的保护耳朵。&lt;/p&gt;
+&lt;p&gt;当然</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>资源目录</title>
     <link href="http://example.com/2021/04/03/%E8%B5%84%E6%BA%90%E7%9B%AE%E5%BD%95/"/>
     <id>http://example.com/2021/04/03/%E8%B5%84%E6%BA%90%E7%9B%AE%E5%BD%95/</id>
     <published>2021-04-03T09:19:17.000Z</published>
-    <updated>2021-04-03T09:41:51.541Z</updated>
+    <updated>2021-04-06T10:34:40.410Z</updated>
     
     
       
