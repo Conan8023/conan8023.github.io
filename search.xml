@@ -200,4 +200,26 @@
 <p><strong>以上内容全截取自知乎@三鱼先生</strong></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>C语言学习笔记</title>
+    <url>/2021/06/13/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<ol>
+<li><p>if语句判断条件选最优</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(lower &gt; upper || lower&gt; <span class="number">100</span> || upper &gt; <span class="number">100</span> || lower &lt; <span class="number">0</span> || upper &lt; <span class="number">0</span>)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Invalid.&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">		pass;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<p>要是用下面这个就被pat判错</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(lower &lt;= upper &lt;= <span class="number">100</span>)</span><br><span class="line">&#123;</span><br><span class="line">    pass;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;Invalid.&quot;</span>);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>结果是浮点数时，公式中整数最好写成小数形式</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">s = s + <span class="number">1.0</span> / i;</span><br></pre></td></tr></table></figure></li>
+<li><p>递增条件必须为<code>i++</code></p>
+<p>（1）在1 + 1/3 + 1/5 + ……中递增条件<code>i++</code></p>
+<p>​        <code>sum = sum + 1.0 / (2*i-1);</code> 表示 <strong>n</strong> 个数的和。</p>
+<p>（2）而<code>i = i + 2</code></p>
+<p>​        <code>sum = sum + 1.0 / i;</code> 表示**（n + 1）/ 2 **个数的和。</p>
+<p>（3）计算1 - 1/4 + 1/7 - 1/10 + ……时 </p>
+<p>​        <code>sum = sum - (1.0 / (3*i - 2))*pow(-1,i);</code></p>
+</li>
+</ol>
+]]></content>
+  </entry>
 </search>
